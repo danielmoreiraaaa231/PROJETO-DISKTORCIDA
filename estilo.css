@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(neymar-4k-splashed-paint-917vlvrqs3adyh1n.jpg);
+    background-color: #09bb27; /* Fundo verde, simulando campo */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #08ee55; /* Dourado para destacar o título */
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #333; /* Fundo escuro para o formulário */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px #000;
+    width: 350px;
+    text-align: justify;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #08eb39; /* Cor dourada para os textos */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #0cb10c; /* Borda dourada */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0ba813; /* Botão dourado */
+    border: none;
+    color: #333;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0c853e; /* Laranja para destaque no hover */
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #FFD700;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFA500;
+    text-decoration: underline;
+}
